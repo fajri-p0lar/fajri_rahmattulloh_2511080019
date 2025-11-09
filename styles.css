@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/008/311/935/small_2x/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* HEADER */
+header {
+  background: #222;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  display: flex;
+}
+
+header h1 {
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.header-container {
+  margin: 0;
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  text-align: left;
+}
+
+.logo h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.main-nav {
+  margin-left: 700px;
+  width: auto;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.main-nav a:hover {
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* PROFILE IMAGE */
+.profile-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 10px auto 20px;
+  display: block;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+/* home */
+.welcome {
+  color: white;
+  text-align: center;
+  margin: 250px;
+}
+
+/* profile */
+
+.profile-section table {
+  width: 120%;
+  border-collapse: collapse;  
+}
+
+/*Kontak*/
+.kontak table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/*General*/
+.card {
+  margin-top: 30px;
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+}
+
+.p {
+  text-align: left;
+}
+
+h2 {
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+h3 {
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #666;
+  font-size: 14px;
+  border-top: 2px solid #e0e0e0;
+  margin-top: 30px;
+}
